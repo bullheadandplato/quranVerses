@@ -6,17 +6,18 @@ Show random Quran verse in android app
 </div>
 
 ## How To Use
-Add This In root `build.gradle`
-<br/>
-`allprojects {
-		repositories {
-			...
-			maven { url 'https://jitpack.io' }
-		}
-	}`
-	<br/>
- Then add this in module `build.gradle`
- <br/>
-  `dependencies {
-	        implementation 'com.github.mosamabinomar:quranVerses:1.0'
-	}`
+Add it to your build.gradle with:
+```gradle
+allprojects {
+    repositories {
+        maven { url "https://jitpack.io" }
+    }
+}
+```
+and:
+
+```gradle
+dependencies {
+    compile 'com.github.mosamabinomar:quranVerses:1.0'
+}
+```
