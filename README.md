@@ -48,3 +48,6 @@ It will automatically set the verse. You don't need to do anything else, that's 
 
 **Example** `app:surahNameTextSize="12sp"`
 
+## Final thoughts
+May **ALLAH** bless us All
+
