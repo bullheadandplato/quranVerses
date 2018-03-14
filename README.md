@@ -39,9 +39,12 @@ Add this in your layout file to include the QuranVerseView.
 It will automatically set the verse. You don't need to do anything else, that's it.
 
 ## View Properties
-| Attribute              | For What?                   |
-| -----------------------|:---------------------------:| 
-| surahNameTextSize      | Change Surah name text size |
-| surahNameTextColor     | Change Surah name text color|
-| verseTextSize          | Change Verse text size      |
-| verseTextColor         | Change Verse text color     |
+| Attribute                | For What?                   |
+| -------------------------|:---------------------------:| 
+| `surahNameTextSize`      | Change Surah name text size |
+| `surahNameTextColor`     | Change Surah name text color|
+| `verseTextSize`          | Change Verse text size      |
+| `verseTextColor`         | Change Verse text color     |
+
+**Example** `app:surahNameTextSize="12sp"`
+
