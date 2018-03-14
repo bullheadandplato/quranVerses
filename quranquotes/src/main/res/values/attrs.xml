@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="QuranVerseView">
+        <attr name="verseTextSize" format="dimension" />
+        <attr name="surahNameTextSize" format="dimension" />
+        <attr name="verseTextColor" format="color" />
+        <attr name="surahNameTextColor" format="color" />
+    </declare-styleable>
+</resources>

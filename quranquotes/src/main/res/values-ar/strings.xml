@@ -1,0 +1,4 @@
+<resources>
+    <string name="splash_verse">"\u201D %1$s \u201C"</string>
+    <string name="splash_surah_ref">%1$s | %2$d</string>
+</resources>

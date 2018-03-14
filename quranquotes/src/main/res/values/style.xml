@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="QuranVerseViewDefault">
+        <item name="verseTextSize">20sp</item>
+        <item name="verseTextColor">#000</item>
+        <item name="surahNameTextSize">12sp</item>
+        <item name="surahNameTextColor">#BDBDBD</item>
+    </style>
+</resources>
