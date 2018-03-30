@@ -19,7 +19,7 @@ and:
 
 ```gradle
 dependencies {
-    compile 'com.github.mosamabinomar:quranVerses:1.0'
+    compile 'com.github.mosamabinomar:quranVerses:1.1'
 }
 ```
 ### STEP 2
