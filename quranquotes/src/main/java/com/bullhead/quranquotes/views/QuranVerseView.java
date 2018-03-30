@@ -23,6 +23,11 @@ import java.util.Locale;
 public class QuranVerseView extends RelativeLayout {
     private TextView tvVerse;
     private TextView tvSurahName;
+    private Verse currentVerse;
+
+    public Verse getCurrentVerse() {
+        return currentVerse;
+    }
 
     public QuranVerseView(Context context) {
         super(context);
@@ -46,13 +51,13 @@ public class QuranVerseView extends RelativeLayout {
         if (tvVerse == null || tvSurahName == null) {
             return;
         }
-        Verse verse = QuranQuote.getInstance(getContext()).getRandomVerse();
+        currentVerse = QuranQuote.getInstance(getContext()).getRandomVerse();
         if (!Resources.getSystem().getConfiguration().locale.getLanguage().equals(Locale.ENGLISH.getLanguage())) {
-            tvVerse.setText(getContext().getString(R.string.splash_verse, verse.getArabic()));
+            tvVerse.setText(getContext().getString(R.string.splash_verse, currentVerse.getArabic()));
         } else {
-            tvVerse.setText(getContext().getString(R.string.splash_verse, verse.getEnglish()));
+            tvVerse.setText(getContext().getString(R.string.splash_verse, currentVerse.getEnglish()));
         }
-        tvSurahName.setText(getContext().getString(R.string.splash_surah_ref, verse.getSurah().getTitle(), verse.getNumber()));
+        tvSurahName.setText(getContext().getString(R.string.splash_surah_ref, currentVerse.getSurah().getTitle(), currentVerse.getNumber()));
     }
 
     public QuranVerseView(Context context, AttributeSet attrs) {
