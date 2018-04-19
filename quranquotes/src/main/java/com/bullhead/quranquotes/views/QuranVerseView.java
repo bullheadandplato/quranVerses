@@ -38,10 +38,10 @@ public class QuranVerseView extends RelativeLayout {
         tvVerse = findViewById(R.id.tvVerse);
         tvSurahName = findViewById(R.id.tvSurahName);
         TypedArray attributes = context.obtainStyledAttributes(attributeSet, R.styleable.QuranVerseView);
-        tvVerse.setTextSize(TypedValue.COMPLEX_UNIT_PX,
+        tvVerse.setTextSize(TypedValue.COMPLEX_UNIT_SP,
                 attributes.getDimension(R.styleable.QuranVerseView_verseTextSize, 20));
         tvVerse.setTextColor(attributes.getColor(R.styleable.QuranVerseView_verseTextColor, Color.BLACK));
-        tvSurahName.setTextSize(TypedValue.COMPLEX_UNIT_PX,
+        tvSurahName.setTextSize(TypedValue.COMPLEX_UNIT_SP,
                 attributes.getDimension(R.styleable.QuranVerseView_surahNameTextSize, 12));
         tvSurahName.setTextColor(attributes.getColor(R.styleable.QuranVerseView_surahNameTextColor, Color.LTGRAY));
         attributes.recycle();
