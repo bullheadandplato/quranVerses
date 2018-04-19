@@ -12,9 +12,12 @@
         android:text="Hello World!"
         app:surahNameTextSize="12sp"
         app:surahNameTextColor="#888888"
-        app:verseTextSize="30sp"
+        app:verseTextSize="20sp"
         android:layout_centerInParent="true"
         app:verseTextColor="@color/colorPrimaryDark"
         />
+    <com.bullhead.quranquotes.views.HadithOfDayView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
 
 </RelativeLayout>
