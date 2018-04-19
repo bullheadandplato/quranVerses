@@ -25,14 +25,21 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
-        app:hadithTextSize="22sp" />
+        app:hadithTextSize="22sp"
+        app:hadithTextColor="@color/colorAccent"
+        app:infoTextColor="@color/colorPrimary"
+        app:infoTextSize="12sp"
+        />
 
         <com.bullhead.quranquotes.views.RandomHadithView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
             app:hadithTextColor="@color/colorAccent"
-            app:hadithTextSize="20sp" />
+            app:hadithTextSize="20sp"
+            app:infoTextColor="@color/colorPrimary"
+            app:infoTextSize="12sp"
+            />
 
     </LinearLayout>
 </ScrollView>
