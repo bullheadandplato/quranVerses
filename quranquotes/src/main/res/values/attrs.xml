@@ -6,7 +6,7 @@
         <attr name="verseTextColor" format="color" />
         <attr name="surahNameTextColor" format="color" />
     </declare-styleable>
-    <declare-styleable name="HadithOfDayView">
+    <declare-styleable name="HadithView">
         <attr name="hadithTextSize" format="dimension" />
         <attr name="infoTextSize" format="dimension" />
         <attr name="hadithTextColor" format="color" />
